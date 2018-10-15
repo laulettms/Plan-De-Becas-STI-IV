@@ -11,6 +11,7 @@ e.mail: laulettms@gmail.com
 Responsables
 
 +Laura Liyen Galicia Peñaloza
+
 +Susana Torres Reynoso
 
 Formacion de Recursos Humanos
