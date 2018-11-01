@@ -25,12 +25,12 @@ do{                                                   //Ciclo do-while para que 
             printf("\n\tEl cifrado ROT13 sustituye cada letra por una letra del alfabeto 13 posociones adelante");
             printf("\n\tEjemplo: la letra 'a' la sustituye por 'n', la letra 'b' por 'o'");
             printf("\n\tNota: solo acepta letras\n\n");    
-	        printf("introduce tu usuario: ");         //introduce usuario
+	    printf("introduce tu usuario: ");         //introduce usuario
             scanf("%s",userrot);                      //Guarda usuario
-			printf("\n**Contrasena sin espacios**\n");  
-            printf("introduce tu contrasena: ");      //Pide contraseña
-            scanf("%s",rot);                          //Guarda contraseña
-            while(rot[i]!='\0'){                      //Ciclo while para evaluar contraseña letra a letra
+	    printf("\n**Contrasena sin espacios**\n");  
+            printf("introduce tu contrasena: ");      //Pide contraseÃ±a
+            scanf("%s",rot);                          //Guarda contraseÃ±a
+            while(rot[i]!='\0'){                      //Ciclo while para evaluar contraseÃ±a letra a letra
               rango=rot[i];
               if(rango>='a'&&rango<'n')               //Condicion para realizar el cifrado ROT13
               rot[i]=rango+13;               
@@ -47,14 +47,14 @@ do{                                                   //Ciclo do-while para que 
             printf("\n\tEl cifrado Cesar consiste en sustituir una letra del alfabeto por otra que se encuentre n numeros adelante");
             printf("\n\tEjemplo: la letra 'a' + 1 la sustituye por b. La letra a + 2 la sustituye por c");
             printf("\n\tNota: solo acepta letras\n\n");
-	 		printf("introduce tu usuario: ");         //introduce usuario
-     		scanf("%s",userce);                       //Guarda usuario
-			printf("\n**Contrasena sin espacios**\n");    
-     		printf("introduce tu contrasena: ");      //Pide contraseña
-     		scanf("%s",cesar);                        //Guarda contraseña
+	    printf("introduce tu usuario: ");         //introduce usuario
+     	    scanf("%s",userce);                       //Guarda usuario
+	    printf("\n**Contrasena sin espacios**\n");    
+     	    printf("introduce tu contrasena: ");      //Pide contraseÃ±a
+     	    scanf("%s",cesar);                        //Guarda contraseÃ±a
      	    printf("introduce un numero: ");          
      	    scanf("%d",&mov);                         //Guarda nuemero para realizar cifrado Cesar
-     		while(cesar[i]!='\0'){                    //Ciclo while para evaluar contraseña letra a letra hasta \0    
+     		while(cesar[i]!='\0'){                    //Ciclo while para evaluar contraseÃ±a letra a letra hasta \0    
         	  cesar[i]=cesar[i]+mov;                  //Condicion para realizar el cifrado Cesar
         	  printf("letra %c\n",cesar[i]);
               i++;}
